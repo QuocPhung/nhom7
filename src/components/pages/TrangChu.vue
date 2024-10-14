@@ -1,6 +1,7 @@
 <template>
     <div id="products" v-if="currentPage === 'products'">
         <div class="banner">
+            <img src="/src/assets/pic/banner.jpg" alt="">
             <p>Tanisha</p>
             <a>Ngon khó cưỡng!!</a>
         </div>
@@ -67,7 +68,6 @@ text-align: center;
 padding-top:50px ;
 }
 .banner{
-        background-image: url('./src/assets/pic/banner.jpg');
         background-size: cover; /* Điều chỉnh ảnh để vừa khít */
         background-position: center; /* Căn giữa ảnh nền */
         background-repeat: no-repeat; /* Không lặp lại ảnh */
